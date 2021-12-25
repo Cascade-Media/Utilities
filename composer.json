@@ -1,0 +1,21 @@
+{
+    "name": "cascade-media/utilities",
+    "description": "a PHP Library containing useful functions and properties.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "alpha",
+    "authors": [
+        {
+            "name": "Grant Kellie",
+            "email": "contact@cascade.media"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CascadeMedia\\Utilities\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2 || ^8.0"
+    }
+}
